@@ -1,6 +1,26 @@
 # chaintool
 A simple tool for installing TLS certificates correctly.
 
+## Installation
+
+No need for any kind of special installation. Downloading a self-contained binary is enough.
+
+For Linux:
+
+```
+curl -L 'https://github.com/cesarkawakami/chaintool/releases/download/v0.1/chaintool-linux' -o chaintool
+chmod +x ./chaintool
+./chaintool
+```
+
+For OSX:
+
+```
+curl -L 'https://github.com/cesarkawakami/chaintool/releases/download/v0.1/chaintool-osx' -o chaintool
+chmod +x ./chaintool
+./chaintool
+```
+
 ## Verifying installations
 
 You can very quickly verify target TLS certificate installations by using the `verify` command:
